@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>firebase-markdown</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <p>Hello FireBase</p>
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBZBYaVQvywlNTxakTHHOu7PwzprT8RCLE",
+        authDomain: "markdown-5abc7.firebaseapp.com",
+        databaseURL: "https://markdown-5abc7.firebaseio.com",
+        projectId: "markdown-5abc7",
+        storageBucket: "markdown-5abc7.appspot.com",
+        messagingSenderId: "381014933366"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
